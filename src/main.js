@@ -14,3 +14,7 @@
       <p>Текст</p>
   </li>
 */
+
+import { refs } from './js/refs';
+import { initFormHandler } from './js/hendlers.js';
+refs.headerForm.addEventListener('submit', handleHeaderFormSumbit);
